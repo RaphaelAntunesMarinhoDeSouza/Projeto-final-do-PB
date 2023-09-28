@@ -132,7 +132,7 @@ Nossa motivação para esta migração é atender a alta demanda de acessos e co
   **2.4. Nova Arquitetura**
   
 <div align="center">
-  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Expedia%20Global%20Deals%20Engine%20Architecture2.vpd.png" width="600px">
+  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Expedia%20Global%20Deals%20Engine%20Architecture2.png" width="600px">
 </div>
 
 **3. Valores**
