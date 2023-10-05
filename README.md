@@ -44,7 +44,7 @@ Este repositório contém a documentação e o escopo do projeto de migração p
 
 ## Motivação do Cliente
 
-Nossa motivação para esta migração é atender a alta demanda de acessos e compras que a Fast Engineering S/A vem tendo.
+A motivação por trás desta migração é a necessidade de atender à crescente demanda de acessos e compras que a Fast Engineering S/A está enfrentando.
 
 ## Escopo do Projeto
 
@@ -69,7 +69,7 @@ A arquitetura proposta segue as melhores práticas e está de acordo com os pila
   
   **2.2. Migração de Dados:**
   
-  Estamos implementando uma migração de banco de dados crucial para o AWS RDS e escolhemos uma abordagem que prioriza a eficiência e a continuidade operacional. Utilizaremos o AWS Database Migration Service (DMS) para assegurar uma transição suave, replicando os dados de forma contínua e mantendo sua integridade. Essa estratégia minimizará qualquer impacto nas operações diárias enquanto aproveitamos os benefícios da escalabilidade e segurança da AWS. Estamos comprometidos em garantir que essa migração seja uma transição tranquila e bem-sucedida.
+A equipe está implementando uma migração de banco de dados crucial para o AWS RDS, adotando uma abordagem que prioriza a eficiência e a continuidade operacional. O AWS Database Migration Service (DMS) será utilizado para assegurar uma transição suave, replicando os dados de forma contínua e mantendo sua integridade. Essa estratégia tem como objetivo minimizar qualquer impacto nas operações diárias, ao mesmo tempo em que se aproveita os benefícios da escalabilidade e segurança oferecidos pela AWS. A equipe está comprometida em garantir que essa migração se concretize como uma transição tranquila e bem-sucedida.
   
   **2.3. Serviços Utilizados**
   
