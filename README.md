@@ -181,3 +181,6 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
   - Total de 528 horas para a entrega
 
 ### 5. Cronograma Macro de Entregas:
+<div align="center">
+  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2016-04-54.png" width="800px">
+</div>
