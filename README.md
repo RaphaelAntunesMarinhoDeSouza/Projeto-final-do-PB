@@ -156,7 +156,8 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
 
 ### 3. Valores
 
-**Link da Calculadora AWS:** https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07
+[Estimativa de Custo da Nova Arquitetura](https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07)
+
 <div align="center">
   <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2014-26-18.png" width="500px">
 </div>
