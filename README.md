@@ -36,7 +36,7 @@ Objetivo: Monte a proposta e a arquitetura do que o grupo propõe entregar.
 
 ___
 
-# Projeto de Migração para a AWS - Fast Engineering S/A
+## Projeto de Migração para a AWS - Fast Engineering S/A
 
 ## Introdução
 
