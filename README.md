@@ -156,7 +156,17 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
 
 ### 3. Valores
 
-**Link da Calculadora AWS:** https://calculator.aws/#/estimate?id=1243cf457c970e2ca78ce89e69bfbc2ef23b6eb0
+**Link da Calculadora AWS:** https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07
+<div align="center">
+  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2014-26-18.png" width="500px">
+</div>
+
+| Item                               | Descrição                                          | Preço por Hora |
+|------------------------------------|----------------------------------------------------|----------------|
+| Migração                           | Migração de dados e serviços para a AWS            | $XX/hora       |
+| Consultoria em AWS                 | Consultoria e configuração de serviços AWS         | $XX/hora       |
+| Suporte Técnico                    | Suporte e manutenção técnica                       | $XX/hora       |
+
 
 ### 4. Prazo de Entrega:
 
