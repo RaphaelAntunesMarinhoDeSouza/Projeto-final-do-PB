@@ -73,61 +73,80 @@ A arquitetura proposta segue as melhores práticas e está de acordo com os pila
   
   **2.3. Serviços Utilizados**
   
-  - **Amazon EC2:**
-    - Amazon EC2 fornece instâncias virtuais sob demanda com configuração personalizável para uma ampla variedade de cargas de trabalho.
-    - Escalabilidade sob demanda, permitindo a adaptação rápida às necessidades de computação, sem investimentos antecipados em hardware físico.
+- **Amazon CloudFront:**
+  - Amazon CloudFront é um serviço de entrega de conteúdo que garante a distribuição eficiente e rápida de conteúdo estático, como imagens e arquivos.
+  - Oferece distribuição global eficiente e veloz de conteúdo estático, atendendo à demanda em constante crescimento.
   
-  - **Amazon CloudFront:**
-    - Amazon CloudFront é um serviço de entrega de conteúdo que garante a distribuição eficiente e rápida de conteúdo estático, como imagens e arquivos.
-    - Oferece distribuição global eficiente e veloz de conteúdo estático, atendendo à demanda em constante crescimento.
-  
-  - **AWS WAF:**
-    - AWS Web Application Firewall é um serviço de firewall projetado para proteger aplicações web contra ataques comuns.
-    - Proporciona proteção avançada contra ameaças, garantindo a segurança de aplicativos da web.
-  
-  - **Amazon Route 53:**
-    - Amazon Route 53 é um serviço DNS que permite registrar e gerenciar domínios, com roteamento de tráfego para recursos AWS, como ELB e CloudFront.
-    - Facilita o roteamento de tráfego eficiente e garante alta disponibilidade, direcionando acessos para instâncias e serviços AWS.
-  
-  - **Amazon S3:**
-    - Amazon S3 utiliza Buckets para armazenar e distribuir conteúdo estático, incluindo imagens, vídeos e arquivos, integrando-se ao CloudFront para uma entrega eficiente.
-    - Oferece armazenamento seguro e escalável para imagens, vídeos e arquivos.
-  
-  - **AWS IAM:**
-    - AWS Identity and Access Management é fundamental para garantir a segurança e o controle de acesso aos recursos da AWS.
-    - Fornece gerenciamento granular de permissões, assegurando que apenas o acesso autorizado seja concedido a recursos críticos.
-  
-  - **Amazon EKS:**
-    - Elastic Kubernetes Service atua como a base da arquitetura, oferecendo orquestração de contêineres por meio do Kubernetes.
-    - Proporciona orquestração de contêineres escalável, permitindo a expansão dinâmica e alta disponibilidade da aplicação.
-  
-  - **VPC:**
-    - Virtual Private Cloud isola a infraestrutura na nuvem e fornece controle granular sobre a rede, criando uma rede privada virtual.
-    - Cria uma rede VPC, melhorando o controle de tráfego e a segurança da infraestrutura.
-  
-  - **NACL:**
-    - Network Access Control List é uma lista com camadas adicionais de segurança que controlam o tráfego de entrada e saída em sub-redes da VPC.
-    - Utiliza NACLs para definir regras de tráfego, reforçando a segurança e o controle na comunicação entre os componentes da aplicação.
-  
-  - **Amazon RDS:**
-    - Relational Database Service hospeda o banco de dados MySQL, oferecendo alta disponibilidade, escalabilidade e backup automático dos dados.
-    - Disponibiliza um banco de dados gerenciado com alta disponibilidade, escalabilidade e backup automático.
-  
-  - **Elastic Load Balancing:**
-    - ELB distribui o tráfego entre instâncias do EKS, garantindo um balanceamento de carga eficiente e alta disponibilidade.
-    - Realiza o balanceamento de carga entre as instâncias, melhorando a disponibilidade e a eficiência da plataforma de comércio eletrônico.
-  
-  - **Amazon CloudWatch:**
-    - CloudWatch oferece monitoramento e observabilidade para os recursos da aplicação, utilizando métricas e alarmes para monitorar o desempenho dos componentes.
-    - Fornece monitoramento detalhado e alertas em tempo real para identificar e resolver problemas rapidamente.
-  
-  - **AWS DMS:**
-    - AWS Database Migration Service é usado para migrar dados do banco de dados MySQL existente para o RDS.
-    - Facilita uma migração suave e consistente dos dados para o RDS, minimizando o tempo de inatividade.
-  
-  - **AWS CloudFormation:**
-    - Amazon CloudFormation permite criar e gerenciar infraestrutura como código, automatizando a definição e provisionamento de recursos.
-    - Oferece automação e rastreabilidade na criação e atualização de recursos de infraestrutura.   
+- **AWS Web Application Firewall (WAF):**
+  - AWS Web Application Firewall é um serviço de firewall projetado para proteger aplicações web contra ataques comuns.
+  - Proporciona proteção avançada contra ameaças, garantindo a segurança de aplicativos da web.
+
+- **AWS Shield:**
+  - AWS Shield é um serviço de segurança que protege aplicativos e recursos da AWS contra ataques DDoS (Distributed Denial of Service).
+  - Fornece defesa contra ataques DDoS de alto nível para manter a disponibilidade dos recursos.
+
+- **Amazon Route 53:**
+  - Amazon Route 53 é um serviço DNS que permite registrar e gerenciar domínios, com roteamento de tráfego para recursos AWS, como ELB e CloudFront.
+  - Facilita o roteamento de tráfego eficiente e garante alta disponibilidade, direcionando acessos para instâncias e serviços AWS.
+
+- **Amazon Simple Storage Service (S3):**
+  - Amazon S3 utiliza Buckets para armazenar e distribuir conteúdo estático, incluindo imagens, vídeos e arquivos, integrando-se ao CloudFront para uma entrega eficiente.
+  - Oferece armazenamento seguro e escalável para imagens, vídeos e arquivos.
+
+- **Amazon EKS:**
+  - Elastic Kubernetes Service atua como a base da arquitetura, oferecendo orquestração de contêineres por meio do Kubernetes.
+  - Proporciona orquestração de contêineres escalável, permitindo a expansão dinâmica e alta disponibilidade da aplicação.
+
+- **Amazon Virtual Private Cloud (VPC):**
+  - Virtual Private Cloud isola a infraestrutura na nuvem e fornece controle granular sobre a rede, criando uma rede privada virtual.
+  - Cria uma rede VPC, melhorando o controle de tráfego e a segurança da infraestrutura.
+
+- **Amazon RDS Aurora:**
+  - Amazon RDS Aurora é um serviço de banco de dados relacional da AWS que oferece alta performance, escalabilidade e durabilidade.
+  - Fornecido como uma opção de banco de dados para aplicativos críticos.
+
+- **Elastic Load Balancing:**
+  - Elastic Load Balancing é um serviço que distribui o tráfego entre várias instâncias ou recursos para garantir a alta disponibilidade e a escalabilidade de aplicativos.
+
+- **Amazon CloudWatch:**
+  - Amazon CloudWatch é um serviço de monitoramento e observação que fornece insights sobre o desempenho dos recursos e aplicativos AWS.
+
+- **AWS Database Migration Service:**
+  - AWS Database Migration Service facilita a migração de bancos de dados para a AWS com segurança e facilidade.
+
+- **Amazon Cognito:**
+  - Amazon Cognito é um serviço de autenticação e autorização que permite que você adicione facilmente autenticação para aplicativos da web e móveis.
+
+- **AWS Lambda:**
+  - AWS Lambda é um serviço de computação serverless que permite que você execute código sem provisionar ou gerenciar servidores.
+
+- **AWS CloudTrail:**
+  - AWS CloudTrail é um serviço que registra atividades na sua conta da AWS, permitindo auditoria e rastreamento de ações.
+
+- **AWS CodeBuild:**
+  - AWS CodeBuild é um serviço de compilação totalmente gerenciado que compila código fonte, executa testes e cria artefatos.
+
+- **AWS CodePipeline:**
+  - AWS CodePipeline é um serviço de entrega contínua que automatiza a construção, teste e implantação de aplicativos.
+
+- **AWS CodeDeploy:**
+  - AWS CodeDeploy é um serviço de implantação automatizada que facilita a implantação de aplicativos na AWS.
+
+- **Amazon EC2:**
+  - Amazon EC2 fornece instâncias virtuais sob demanda com configuração personalizável para uma ampla variedade de cargas de trabalho.
+  - Escalabilidade sob demanda, permitindo a adaptação rápida às necessidades de computação, sem investimentos antecipados em hardware físico.
+
+- **AWS Backup:**
+  - AWS Backup é um serviço de backup totalmente gerenciado que ajuda a simplificar a proteção de dados e a recuperação de recursos da AWS.
+
+- **Cost Usage e Report:**
+  - O serviço de Cost Usage e Report da AWS permite rastrear e analisar o uso e os custos dos recursos da AWS.
+
+- **Cost Explorer:**
+  - O Cost Explorer é uma ferramenta de análise de custos que ajuda a visualizar e entender seus gastos na AWS.
+
+- **CloudFormation:**
+  - AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS por meio de modelos de infraestrutura como código.   
  
   **2.4. Nova Arquitetura**
   
