@@ -2,9 +2,9 @@
 AWS - Cloud Pratictioner - PB Aws - IF Fluminense - IFMT - UTFPR - UNAMA  | Programa de Bolsas - DevSecOps
 
 #### Grupo 1:
-- Bruno Garcia Nazareth 
-- Nicolas Meirelles Grisostolo
-- Raphael Antunes Marinho de Souza
+- [Bruno Garcia Nazareth](https://github.com/brunoshure)
+- [Nicolas Meirelles Grisostolo](https://github.com/zSalocin)
+- [Raphael Antunes Marinho de Souza](https://github.com/RaphaelAntunesMarinhoDeSouza)
 
 ### CASE:
 Nós somos da empresa "Fast Engineering S/A" e gostaríamos de uma solução dos senhores(as), que fazem parte da empresa terceira "TI SOLUÇÕES INCRÍVEIS". Nosso eCommerce está crescendo e a solução atual não está atendendo mais a alta demanda de acessos e compras que estamos tendo. Desde o Início do ano os acessos e compras estão crescendo 20% a cada mês.
@@ -162,15 +162,16 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
   <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2014-26-18.png" width="500px">
 </div>
 
-**Custos de mão-de-obra**
+**Custos da equipe**
 
-| Item                               | Descrição                                          | Preço por Hora |
-|------------------------------------|----------------------------------------------------|----------------|
-| Migração                           | Migração de dados e serviços para a AWS            | $XX/hora       |
-| Consultoria em AWS                 | Consultoria e configuração de serviços AWS         | $XX/hora       |
-| Suporte Técnico                    | Suporte e manutenção técnica                       | $XX/hora       |
 
 
 ### 4. Prazo de Entrega:
++ Implementação da arquitetura: **22 dias úteis**.
+
+• Equipe de 3 pessoas:
+  - Trabalhando 8 horas por dia
+  - Ao longo de 22 dias úteis
+  - Total de 528 horas para a entrega
 
 ### 5. Cronograma Macro de Entregas:
