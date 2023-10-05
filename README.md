@@ -161,6 +161,8 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
   <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2014-26-18.png" width="500px">
 </div>
 
+**Custos de mão-de-obra**
+
 | Item                               | Descrição                                          | Preço por Hora |
 |------------------------------------|----------------------------------------------------|----------------|
 | Migração                           | Migração de dados e serviços para a AWS            | $XX/hora       |
