@@ -151,7 +151,7 @@ A arquitetura proposta segue as melhores práticas e está de acordo com os pila
   **2.4. Nova Arquitetura**
   
 <div align="center">
-  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Expedia%20Global%20Deals%20Engine%20Architecture2.png" width="600px">
+  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Untitled.jpg" width="900px">
 </div>
 
 ### 3. Valores
