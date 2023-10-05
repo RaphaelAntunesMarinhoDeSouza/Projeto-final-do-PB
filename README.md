@@ -101,9 +101,9 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
   - Virtual Private Cloud isola a infraestrutura na nuvem e fornece controle granular sobre a rede, criando uma rede privada virtual.
   - Cria uma rede VPC, melhorando o controle de tráfego e a segurança da infraestrutura.
 
-- **Amazon RDS Aurora:**
-  - Amazon RDS Aurora é um serviço de banco de dados relacional da AWS que oferece alta performance, escalabilidade e durabilidade.
-  - Fornecido como uma opção de banco de dados para aplicativos críticos.
+- **Amazon RDS for MySQL:**
+  - Amazon RDS (Relational Database Service) for MySQL é um serviço gerenciado que facilita a configuração, operação e dimensionamento de um banco de dados MySQL na AWS.
+  - Oferece alta disponibilidade, segurança e facilidade de gerenciamento para aplicativos que utilizam o MySQL como banco de dados.
 
 - **Elastic Load Balancing:**
   - Elastic Load Balancing é um serviço que distribui o tráfego entre várias instâncias ou recursos para garantir a alta disponibilidade e a escalabilidade de aplicativos.
