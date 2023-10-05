@@ -162,7 +162,13 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
   <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2014-26-18.png" width="500px">
 </div>
 
-**Custos da equipe**
+**Custos**
+
+|             Item                   |                     Descrição                      |       Preço      |
+|------------------------------------|----------------------------------------------------|----------------  |
+| Migração Para a AWS                | Migração de dados on-premise para a AWS            | $496,40          |
+| Infraestrutura da AWS              | Custo da Infraestrutura de serviços da AWS         | $5.373,72/Mensal |
+| Custo da Equipe                    | Suporte e manutenção técnica                       | $3.457,76/Mensal |
 
 
 
