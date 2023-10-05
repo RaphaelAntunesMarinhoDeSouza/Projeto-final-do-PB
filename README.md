@@ -36,30 +36,30 @@ Objetivo: Monte a proposta e a arquitetura do que o grupo propõe entregar.
 
 ___
 
-## Projeto de Migração para a AWS - Fast Engineering S/A
+# Projeto de Migração para a AWS - Fast Engineering S/A
 
-### Introdução
+## Introdução
 
 Este repositório contém a documentação e o escopo do projeto de migração para a AWS de um e-commerce. O projeto tem como objetivo aumentar a escalabilidade e reduzir custos operacionais.
 
-### Motivação do Cliente
+## Motivação do Cliente
 
 Nossa motivação para esta migração é atender a alta demanda de acessos e compras que a Fast Engineering S/A vem tendo.
 
-### Escopo do Projeto
+## Escopo do Projeto
 
-#### O escopo do projeto inclui as seguintes etapas:
+### O escopo do projeto inclui as seguintes etapas:
 
-**1. ![Emoji-onpremise](https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/logoon.png) Avaliação da Infraestrutura Atual:**
+### 1. ![Emoji-onpremise](https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/logoon.png) Avaliação da Infraestrutura Atual:
 
  <div align="center">
   <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Atual.png" width="400px">
    <p><em>Arquitetura Atual</em></p>
 </div>
 
-**2. ![Emoji-AWS](https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/awslogo.png) Arquitetura da Solução Proposta:**
+### 2. ![Emoji-AWS](https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/awslogo.png) Arquitetura da Solução Proposta:
 
-**A arquitetura proposta segue as melhores práticas e está de acordo com os pilares da AWS Well-Architected Framework.**
+A arquitetura proposta segue as melhores práticas e está de acordo com os pilares da AWS Well-Architected Framework.
     
   **2.1. ![Emoji-pilar](https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/new.png) Pilares da AWS Well-Architected Framework**
       
@@ -135,8 +135,10 @@ Nossa motivação para esta migração é atender a alta demanda de acessos e co
   <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Expedia%20Global%20Deals%20Engine%20Architecture2.png" width="600px">
 </div>
 
-**3. Valores**
+### 3. Valores
 
-**4. Prazo de Entrega:**
+**Link da Calculadora AWS:** https://calculator.aws/#/estimate?id=1243cf457c970e2ca78ce89e69bfbc2ef23b6eb0
 
-**5. Cronograma Macro de Entregas:**
+### 4. Prazo de Entrega:
+
+### 5. Cronograma Macro de Entregas:
