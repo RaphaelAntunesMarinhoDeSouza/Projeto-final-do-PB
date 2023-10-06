@@ -173,12 +173,12 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
 
 
 ### 4. Prazo de Entrega:
-+ Implementação da arquitetura: **22 dias úteis**.
++ Implementação da arquitetura: **28 dias úteis**.
 
 • Equipe de 3 pessoas:
   - Trabalhando 8 horas por dia
-  - Ao longo de 22 dias úteis
-  - Total de 528 horas para a entrega
+  - Ao longo de 28 dias úteis
+  - Total de 672 horas para a entrega
 
 ### 5. Cronograma Macro de Entregas:
 <div align="center">
