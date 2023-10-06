@@ -53,7 +53,7 @@ A motivação por trás desta migração é a necessidade de atender à crescent
 ### 1. ![Emoji-onpremise](https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/logoon.png) Avaliação da Infraestrutura Atual:
 
  <div align="center">
-  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Atual.png" width="400px">
+  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Expedia%20Global%20Deals%20Engine%20Architecture.jpg" width="400px">
    <p><em>Arquitetura Atual</em></p>
 </div>
 
