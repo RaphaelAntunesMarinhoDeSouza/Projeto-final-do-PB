@@ -143,11 +143,9 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
 ### 3. Valores
 
 [Estimativa de Custo da Nova Infraestruruta](https://calculator.aws/#/estimate?id=bc4d9aa948abe9d60d2cf4a97c385823bfcad3b0)
+
 [Estimativa de Custo da Migração de dados on-premise para a AWS](https://calculator.aws/#/estimate?id=11f5197a24c41325c003b796884a2037925e6a8b)
 
-<div align="center">
-  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2014-26-18.png" width="500px">
-</div>
 
 **Custos**
 
