@@ -114,15 +114,6 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
 - **AWS Database Migration Service:**
   - AWS Database Migration Service facilita a migração de bancos de dados para a AWS com segurança e facilidade.
 
-- **Amazon Cognito:**
-  - Amazon Cognito é um serviço de autenticação e autorização que permite que você adicione facilmente autenticação para aplicativos da web e móveis.
-
-- **AWS Lambda:**
-  - AWS Lambda é um serviço de computação serverless que permite que você execute código sem provisionar ou gerenciar servidores.
-
-- **AWS CloudTrail:**
-  - AWS CloudTrail é um serviço que registra atividades na sua conta da AWS, permitindo auditoria e rastreamento de ações.
-
 - **AWS CodeBuild:**
   - AWS CodeBuild é um serviço de compilação totalmente gerenciado que compila código fonte, executa testes e cria artefatos.
 
@@ -139,11 +130,6 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
 - **AWS Backup:**
   - AWS Backup é um serviço de backup totalmente gerenciado que ajuda a simplificar a proteção de dados e a recuperação de recursos da AWS.
 
-- **Cost Usage e Report:**
-  - O serviço de Cost Usage e Report da AWS permite rastrear e analisar o uso e os custos dos recursos da AWS.
-
-- **Cost Explorer:**
-  - O Cost Explorer é uma ferramenta de análise de custos que ajuda a visualizar e entender seus gastos na AWS.
 
 - **CloudFormation:**
   - AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS por meio de modelos de infraestrutura como código.   
@@ -151,12 +137,13 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
   **2.4. Nova Arquitetura**
   
 <div align="center">
-  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Untitled.jpg" width="900px">
+  <img src="https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Arquitetura.jpeg" width="900px">
 </div>
 
 ### 3. Valores
 
-[Estimativa de Custo da Nova Arquitetura](https://calculator.aws/#/estimate?id=f0691a4bdf6209114ce6b6391e274d6b089bec07)
+[Estimativa de Custo da Nova Infraestruruta](https://calculator.aws/#/estimate?id=bc4d9aa948abe9d60d2cf4a97c385823bfcad3b0)
+[Estimativa de Custo da Migração de dados on-premise para a AWS](https://calculator.aws/#/estimate?id=11f5197a24c41325c003b796884a2037925e6a8b)
 
 <div align="center">
   <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2014-26-18.png" width="500px">
@@ -167,7 +154,7 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
 |             Item                   |                     Descrição                      |       Preço      |
 |------------------------------------|----------------------------------------------------|----------------  |
 | Migração Para a AWS                | Migração de dados on-premise para a AWS            | $496,40          |
-| Infraestrutura da AWS              | Custo da Infraestrutura de serviços da AWS         | $5.373,72/Mensal |
+| Infraestrutura da AWS              | Custo da Infraestrutura de serviços da AWS         | $4.859,38/Mensal |
 | Custo da Equipe                    | Suporte e manutenção técnica                       | $3.457,76/Mensal |
 
 
@@ -182,5 +169,5 @@ A equipe está implementando uma migração de banco de dados crucial para o AWS
 
 ### 5. Cronograma Macro de Entregas:
 <div align="center">
-  <img src="https://github.com/RaphaelAntunesMarinhoDeSouza/Images/blob/main/Projeto%20Final/Captura%20de%20ecr%C3%A3%20de%202023-10-05%2016-04-54.png" width="800px">
+  <img src="https://github.com/zSalocin/PB_Compass_Projeto_Final_Arquitetura/blob/main/Assets/Cronograma.jpeg" width="800px">
 </div>
